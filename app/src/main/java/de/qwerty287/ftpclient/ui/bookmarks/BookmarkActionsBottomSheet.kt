@@ -11,7 +11,7 @@ import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import de.qwerty287.ftpclient.R
 import de.qwerty287.ftpclient.data.AppDatabase
-import de.qwerty287.ftpclient.data.Bookmark
+import de.qwerty287.ftpclient.data.entitites.Bookmark
 import de.qwerty287.ftpclient.databinding.BottomSheetBookmarkActionsBinding
 import kotlinx.coroutines.launch
 

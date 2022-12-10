@@ -14,7 +14,7 @@ import androidx.navigation.fragment.findNavController
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import de.qwerty287.ftpclient.R
 import de.qwerty287.ftpclient.data.AppDatabase
-import de.qwerty287.ftpclient.data.Connection
+import de.qwerty287.ftpclient.data.entitites.Connection
 import de.qwerty287.ftpclient.databinding.FragmentFileViewBinding
 import de.qwerty287.ftpclient.ui.files.FileExtensions
 import de.qwerty287.ftpclient.ui.files.providers.Client

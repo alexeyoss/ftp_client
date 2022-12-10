@@ -11,7 +11,7 @@ import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
 import de.qwerty287.ftpclient.R
 import de.qwerty287.ftpclient.data.AppDatabase
-import de.qwerty287.ftpclient.data.Bookmark
+import de.qwerty287.ftpclient.data.entitites.Bookmark
 import de.qwerty287.ftpclient.databinding.FragmentAddBookmarkBinding
 import kotlinx.coroutines.launch
 

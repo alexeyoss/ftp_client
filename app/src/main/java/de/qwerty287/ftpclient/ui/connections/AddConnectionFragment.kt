@@ -12,7 +12,7 @@ import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
 import de.qwerty287.ftpclient.R
 import de.qwerty287.ftpclient.data.AppDatabase
-import de.qwerty287.ftpclient.data.Connection
+import de.qwerty287.ftpclient.data.entitites.Connection
 import de.qwerty287.ftpclient.databinding.FragmentAddConnectionBinding
 import de.qwerty287.ftpclient.ui.connections.ConnectionActionsBottomSheet.Companion.KEY_CONNECTION_ID
 import de.qwerty287.ftpclient.ui.files.providers.Provider

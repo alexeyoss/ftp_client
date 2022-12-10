@@ -9,7 +9,7 @@ import androidx.fragment.app.FragmentManager
 import androidx.navigation.NavController
 import androidx.recyclerview.widget.RecyclerView
 import de.qwerty287.ftpclient.R
-import de.qwerty287.ftpclient.data.Bookmark
+import de.qwerty287.ftpclient.data.entitites.Bookmark
 
 internal class BookmarkAdapter(
     private val bookmarks: List<Bookmark>,

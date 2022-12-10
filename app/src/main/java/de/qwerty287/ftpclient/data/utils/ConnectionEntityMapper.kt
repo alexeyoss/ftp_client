@@ -1,5 +1,6 @@
-package de.qwerty287.ftpclient.data
+package de.qwerty287.ftpclient.data.utils
 
+import de.qwerty287.ftpclient.data.entitites.Connection
 import de.qwerty287.ftpclient.data.utils.EntityMapper
 
 class ConnectionEntityMapper : EntityMapper<Connection, Connection> {

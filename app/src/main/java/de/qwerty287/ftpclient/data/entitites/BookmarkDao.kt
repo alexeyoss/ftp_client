@@ -1,7 +1,8 @@
-package de.qwerty287.ftpclient.data
+package de.qwerty287.ftpclient.data.entitites
 
 import androidx.lifecycle.LiveData
 import androidx.room.*
+import de.qwerty287.ftpclient.data.entitites.Bookmark
 
 @Dao
 interface BookmarkDao {

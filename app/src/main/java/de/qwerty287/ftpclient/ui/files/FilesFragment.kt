@@ -21,7 +21,7 @@ import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.google.android.material.snackbar.Snackbar
 import de.qwerty287.ftpclient.R
 import de.qwerty287.ftpclient.data.AppDatabase
-import de.qwerty287.ftpclient.data.Connection
+import de.qwerty287.ftpclient.data.entitites.Connection
 import de.qwerty287.ftpclient.databinding.FragmentFilesBinding
 import de.qwerty287.ftpclient.ui.files.providers.Client
 import kotlinx.coroutines.Dispatchers

@@ -9,8 +9,8 @@ import androidx.appcompat.content.res.AppCompatResources
 import androidx.navigation.NavController
 import androidx.recyclerview.widget.RecyclerView
 import de.qwerty287.ftpclient.R
-import de.qwerty287.ftpclient.data.Bookmark
-import de.qwerty287.ftpclient.data.Connection
+import de.qwerty287.ftpclient.data.entitites.Bookmark
+import de.qwerty287.ftpclient.data.entitites.Connection
 
 internal class ConnectionAndBookmarkAdapter(
     private val connections: List<Connection>,

@@ -12,8 +12,8 @@ import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import de.qwerty287.ftpclient.R
 import de.qwerty287.ftpclient.data.AppDatabase
-import de.qwerty287.ftpclient.data.Connection
-import de.qwerty287.ftpclient.data.ConnectionEntityMapper
+import de.qwerty287.ftpclient.data.entitites.Connection
+import de.qwerty287.ftpclient.data.utils.ConnectionEntityMapper
 import de.qwerty287.ftpclient.databinding.BottomSheetConnectionActionsBinding
 import kotlinx.coroutines.launch
 
@@ -87,7 +87,9 @@ class ConnectionActionsBottomSheet : BottomSheetDialogFragment() {
             }
 
             editConnection.setOnClickListener {
-                val options = bundleOf(Pair(KEY_CONNECTION_ID, connection.id))
+                val options = bundleOf(
+                    Pair(KEY_CONNECTION_ID, connection.id)
+                )
                 findNavController().navigate(
                     R.id.action_ConnectionsFragment_to_AddConnectionFragment,
                     options
@@ -97,7 +99,7 @@ class ConnectionActionsBottomSheet : BottomSheetDialogFragment() {
 
             copyConnection.setOnClickListener {
                 lifecycleScope.launch {
-                    db.connectionDao().insert(
+                    db.connectionDao().copyElem(
                         mapper.mapToModel(connection)
                     )
                 }

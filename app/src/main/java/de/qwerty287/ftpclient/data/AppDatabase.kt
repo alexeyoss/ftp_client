@@ -6,6 +6,10 @@ import androidx.room.Room
 import androidx.room.RoomDatabase
 import androidx.room.migration.Migration
 import androidx.sqlite.db.SupportSQLiteDatabase
+import de.qwerty287.ftpclient.data.entitites.Bookmark
+import de.qwerty287.ftpclient.data.entitites.BookmarkDao
+import de.qwerty287.ftpclient.data.entitites.Connection
+import de.qwerty287.ftpclient.data.entitites.ConnectionDao
 
 @Database(entities = [Connection::class, Bookmark::class], version = 7, exportSchema = false)
 abstract class AppDatabase : RoomDatabase() {

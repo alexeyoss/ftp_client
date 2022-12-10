@@ -1,4 +1,4 @@
-package de.qwerty287.ftpclient.data
+package de.qwerty287.ftpclient.data.entitites
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity
